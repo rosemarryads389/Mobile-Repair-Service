@@ -36,8 +36,20 @@
             border: 1px solid #ccc;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .services {
+        .services, .testimonials {
             padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .service-item {
+            margin-bottom: 10px;
+        }
+        .testimonials {
+            background-color: #f9f9f9;
+        }
+        .testimonial {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
         }
         .contact-form {
             padding: 20px;
@@ -61,18 +73,48 @@
     </header>
     <nav>
         <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="container">
         <section id="services" class="services">
             <h2>Our Services</h2>
-            <ul>
-                <li>Screen Replacement</li>
-                <li>Battery Replacement</li>
-                <li>Water Damage Repair</li>
-                <li>Software Troubleshooting</li>
-            </ul>
+            <div class="service-item">
+                <h3>Screen Replacement</h3>
+                <p>We specialize in replacing cracked or broken screens of various mobile devices.</p>
+            </div>
+            <div class="service-item">
+                <h3>Battery Replacement</h3>
+                <p>If your device isn't holding a charge like it used to, we can replace the battery.</p>
+            </div>
+            <div class="service-item">
+                <h3>Water Damage Repair</h3>
+                <p>We offer diagnostics and repair services for water-damaged phones.</p>
+            </div>
+            <div class="service-item">
+                <h3>Software Troubleshooting</h3>
+                <p>Issues with apps crashing or software glitches? Our experts can help.</p>
+            </div>
         </section>
+        
+        <section id="pricing" class="services">
+            <h2>Pricing</h2>
+            <p>Our pricing varies depending on the type of repair and the device model. Please contact us for a personalized quote.</p>
+        </section>
+        
+        <section id="testimonials" class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Excellent service! My phone's screen was replaced quickly and it works perfectly now. Highly recommend!"</p>
+                <p>- John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"I thought my phone was beyond repair after it got wet. They managed to fix it and saved me a lot of money!"</p>
+                <p>- Jane Smith</p>
+            </div>
+        </section>
+        
         <section id="contact" class="contact-form">
             <h2>Contact Us</h2>
             <form action="mailto:you@example.com" method="post" enctype="text/plain">
