@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Repair Services</title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .services {
+            padding: 20px;
+        }
+        .contact-form {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mobile Repair Services</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Screen Replacement</li>
+                <li>Battery Replacement</li>
+                <li>Water Damage Repair</li>
+                <li>Software Troubleshooting</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="mailto:you@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Mobile Repair Services
+    </footer>
+</body>
+</html>
